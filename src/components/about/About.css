@@ -1,0 +1,42 @@
+.about_wrapper{
+    /* border: 1px solid red; */
+    padding: 0 20%;
+    padding-left: 15%;
+    background-color: #020A18;
+
+}
+.about_card{
+    display: flex;
+    /* border: 1px solid red; */
+    gap: 10px;
+
+}
+.about_text{
+    /* border: 1px solid red; */
+    padding-top: 20%;
+    color: white;
+
+}
+.about_text p{
+    color: gray;
+}
+.about_img{
+    /* border: 1px solid red; */
+
+}
+.about_img img{
+    width: 600px;
+    height: 400px;
+}
+.about_text button{
+    /* border: 1px solid red; */
+    border-radius: 5px;
+    margin: 10px 0;
+    padding: 10px;
+    background-color: #3A68B8;
+    color: white;
+}
+
+body{
+    height: 360vh;
+}

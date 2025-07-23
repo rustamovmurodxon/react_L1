@@ -1,0 +1,58 @@
+/* src/components/Navbar.css */
+
+.navbar {
+    background-color: #070e1c;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 15px 30px;
+    color: white;
+  }
+  
+  .navbar-left {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .logo {
+    width: 32px;
+    height: 32px;
+  }
+  
+  .brand-name {
+    font-size: 14px;
+  }
+  
+  .brand-name .highlight {
+    color: #3b82f6; /* blue-500 */
+  }
+  
+  .nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    font-size: 14px;
+  }
+  
+  .nav-links li {
+    cursor: pointer;
+  }
+  
+  .nav-links li:hover {
+    color: #3b82f6;
+  }
+  
+  .sign-in-btn {
+    background-color: #3b82f6;
+    color: white;
+    padding: 5px 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .sign-in-btn:hover {
+    background-color: #2563eb; /* darker blue */
+  }
+  
